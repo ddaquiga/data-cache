@@ -26,11 +26,13 @@ Each line in a trace file represents an access to data memory.
 
 A few lines from a sample trace file:
 
-0xb7fc7489: W 0xbff20468 4 0xb7fc748e
-0xb7fc748e: R 0xbff20468 4 0xb7fc748e
-0xb7fc7495: W 0xbff20478 4 0xbff204b0
-0xb7fc749e: R 0xb7fd9ff4 4 0x15f24
-etc etc
+	0xb7fc7489: W 0xbff20468 4 0xb7fc748e
+
+	0xb7fc748e: R 0xbff20468 4 0xb7fc748e
+
+	0xb7fc7495: W 0xbff20478 4 0xbff204b0
+
+	0xb7fc749e: R 0xb7fd9ff4 4 0x15f24
 
 -The first hexadecimal integer is the address of the instruction that caused the data memory access.
 
